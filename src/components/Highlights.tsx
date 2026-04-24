@@ -11,7 +11,7 @@ const HIGHLIGHTS = [
       "Developed a biometric attendance tracking system using Angular, integrating a face recognition API for real-time identification and implementing SMS notifications to parents for attendance updates.",
     icon: <Zap className="w-6 h-6" />,
     stats: "99.2% Accuracy",
-    image: "../images/thesis.png",
+    image: "/images/thesis.png",
   },
   {
     id: "02",
@@ -20,7 +20,7 @@ const HIGHLIGHTS = [
       'Awarded "Pitch Spot Award" for outstanding performance in developing a custom ISO-8583 MuleSoft connector that prevented potential project termination and enabled real-time Metrobank ATM transactions.',
     icon: <Shield className="w-6 h-6" />,
     stats: "Pitch Spot Award",
-    image: "../images/pitch-spot-award.JPG",
+    image: "/images/pitch-spot-award.JPG",
   },
   {
     id: "03",
@@ -29,7 +29,7 @@ const HIGHLIGHTS = [
       "Recognized as an Innovation Champion for outstanding technical contributions that improved team productivity and accelerated project delivery.",
     icon: <Trophy className="w-6 h-6" />,
     stats: "Innovation Champion Award",
-    image: "../images/innovation-champion-award.JPG",
+    image: "/images/innovation-champion-award.JPG",
   },
   {
     id: "04",
@@ -38,7 +38,7 @@ const HIGHLIGHTS = [
       "Engineered a reusable MuleSoft connector for bidirectional SOAP/REST payload transformation, bridging legacy systems with modern API architecture.",
     icon: <RefreshCw className="w-6 h-6" />,
     stats: "Team Utilized",
-    image: "../images/mbtc-logo.jpg",
+    image: "/images/mbtc-logo.jpg",
   },
   {
     id: "05",
@@ -47,7 +47,7 @@ const HIGHLIGHTS = [
       "MuleSoft Certified Developer certification validating expertise in designing, building, and managing complex APIs and integrations.",
     icon: <Award className="w-6 h-6" />,
     stats: "MCD - Level 1",
-    image: "../images/mcd-lvl-1-cert.jpg",
+    image: "/images/mcd-lvl-1-cert.jpg",
   },
   {
     id: "06",
@@ -56,7 +56,7 @@ const HIGHLIGHTS = [
       "Started as a contractual Junior Java Developer at Globe Telecom Philippines under Xurpas Enterprise; earned regular employment in less than six months through strong performance.",
     icon: <CheckCircle className="w-6 h-6" />,
     stats: "Rated Superb",
-    image: "../images/globe-logo.jpg",
+    image: "/images/globe-logo.jpg",
   },
 ];
 

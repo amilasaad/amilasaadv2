@@ -10,7 +10,7 @@ const EXPERIENCES = [
     period: 'July 2022 - Present',
     description: 'Technical contributor for Metrobank integration projects. Guide junior developers through complex implementations and collaborate directly with Business Analysts (BA), System Architects (SA), System Integration (SI), SQD/Testers, and stakeholders to align technical solutions with business requirements. Engineered custom ISO-8583 connectors and high-throughput messaging architectures.',
     skills: ['MuleSoft', 'Mentorship', 'Stakeholder Management', 'Architecture Integration', 'Java', 'ISO-8583', 'RAML', 'JWT', 'Kafka', 'Redis', 'NGINX', 'OAUTH', 'Apache JMeter', 'MuleSoft Custom Connecter'],
-    logo: '../images/ascendion-work.jpg'
+    logo: '/images/ascendion-work.jpg'
   },
   {
     company: 'Independent Contract',
@@ -18,7 +18,7 @@ const EXPERIENCES = [
     period: 'Oct 2025 - March 2026',
     description: 'Developed a full-stack room attendance application using AI-powered facial recognition. Built the frontend with Angular and real-time camera access, while engineering the backend with Spring Boot and NGINX for secure deployment.',
     skills: ['Angular', 'TypeScript', 'Java', 'Spring Boot', 'Facial Recognition', 'MySQL', 'NGINX', 'HTML', 'CSS'],
-    logo: '../images/freelance-2.png'
+    logo: '/images/freelance-2.png'
   },
   {
     company: 'Our Lady of Fatima University',
@@ -26,7 +26,7 @@ const EXPERIENCES = [
     period: 'May 2024 - Sept 2024',
     description: 'Developed a full-stack campus attendance application using AI-powered facial recognition with real-time camera access and role-based access control, deployed via NGINX.',
     skills: ['Java', 'Spring Boot', 'TypeScript', 'Angular', 'Facial Recognition', 'MySQL', 'NGINX', 'HTML', 'CSS'],
-    logo: '../images/olfu-work.jpg'
+    logo: '/images/olfu-work.jpg'
   },
   {
     company: 'Xurpas Inc.',
@@ -34,7 +34,7 @@ const EXPERIENCES = [
     period: 'Nov 2021 - July 2022',
     description: 'Developed scalable RESTful APIs using Spring Boot for Globe Telecom. Optimized database performance and collaborated with cross-functional teams to ensure seamless frontend integration.',
     skills: ['Java', 'Spring Boot', 'MySQL', 'Angular', 'RESTful APIs', 'API Design'],
-    logo: '../images/xurpas-work.jpg'
+    logo: '/images/xurpas-work.jpg'
   },
   {
     company: 'IICT Department',
@@ -42,7 +42,7 @@ const EXPERIENCES = [
     period: 'May 2017 - Aug 2019',
     description: 'Solely designed and developed a Java-based desktop voting system using Swing for two official departmental events.',
     skills: ['Java', 'Swing', 'MySQL'],
-    logo: '../images/iict-work.jpg'
+    logo: '/images/iict-work.jpg'
   },
   {
     company: 'Provincial Tawi-Tawi',
@@ -50,7 +50,7 @@ const EXPERIENCES = [
     period: 'March 2018 - April 2018',
     description: 'Created a Java Swing interface for a Provincial Scholar Application system to streamline data management.',
     skills: ['Java', 'Swing', 'MySQL'],
-    logo: '../images/provincial-tt-work.jpg'
+    logo: '/images/provincial-tt-work.jpg'
   }
 ];
 
