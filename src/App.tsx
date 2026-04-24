@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import Hero from "./components/Home";
 import Highlights from "./components/Highlights";
@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import AIAssistant from "./components/AIAssistant";
+import { sendEmailLog } from "./hooks/email-service";
 
 function ScrollReveal({ children }: { children: React.ReactNode }) {
   const containerRef = React.useRef(null);
@@ -41,6 +42,9 @@ const SHOW_HIRO_ORB = false;
 const SHOW_CHAT_SECTION = true;
 
 export default function App() {
+  useEffect(() => {
+  sendEmailLog('amilasaad@gmail.com', 'Someone visited your website!');
+}, []);
   return (
     <main className="min-h-screen selection:bg-neon-blue selection:text-black relative">
       <div className="bg"></div>
