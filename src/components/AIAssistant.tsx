@@ -10,6 +10,9 @@ const AI_TOKEN = process.env.AI_TOKEN || "";
 const ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
 // const MODEL_NAME = "meta/Llama-4-Maverick-17B-128E-Instruct-FP8";
 const MODEL_NAME = "openai/gpt-oss-120b:free";
+// const MODEL_NAME = "meta-llama/llama-3.3-70b-instruct:free";
+// const MODEL_NAME = "openai/gpt-oss-20b:free";
+// const MODEL_NAME = "google/gemma-3-4b-it:free";
 
 const SYSTEM_INSTRUCTION = `
 You are Hiro, the AI assistant for Amil Asaad, a Certified MuleSoft Developer and Full-Stack Engineer.
@@ -73,7 +76,7 @@ STRICT FORMATTING RULES:
 1. NO TABLES: Never use Markdown tables (e.g., | Category | Details |). They are difficult to read on mobile.
 2. USE HTML: HTML tags like <br>, <div>, or <span>.
 3. USE CLEAN MARKDOWN: 
-   - Use ##### for section headers.
+   - Use ### for section headers.
    - Use **Bold** for emphasis.
    - Use bullet points (*) for lists.
    - Use double <br/> between sections for spacing.
@@ -158,7 +161,7 @@ export default function AIAssistant() {
       console.error("AI Assistant Error:", error);
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: "Connection error. Please try again." },
+        { role: "assistant", content: "Oops, I stepped out for a quick snack. Try me again in a bit 🍪" },
       ]);
     } finally {
       setIsLoading(false);

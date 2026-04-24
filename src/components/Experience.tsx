@@ -18,7 +18,7 @@ const EXPERIENCES = [
     period: 'Oct 2025 - March 2026',
     description: 'Developed a full-stack room attendance application using AI-powered facial recognition. Built the frontend with Angular and real-time camera access, while engineering the backend with Spring Boot and NGINX for secure deployment.',
     skills: ['Angular', 'TypeScript', 'Java', 'Spring Boot', 'Facial Recognition', 'MySQL', 'NGINX', 'HTML', 'CSS'],
-    logo: 'src/images/olfu-work.jpg'
+    logo: 'src/images/freelance-2.png'
   },
   {
     company: 'Our Lady of Fatima University',

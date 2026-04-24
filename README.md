@@ -9,6 +9,6 @@
 
 1. Install dependencies:
    `npm install`
-2. Set the `API_TOKEN` in [.env.local](.env.local) to your API Key
+2. Set the `API_TOKEN` in [.env](.env) to your API Key
 3. Run the app:
    `npm run dev`

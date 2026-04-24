@@ -47,7 +47,7 @@ export default function Skills() {
             onMouseEnter={() => playHover()}
             className="p-6 lg:p-10 glass-panel rounded-[24px] lg:rounded-[32px] hover:bg-white/5 transition-all group"
           >
-            <div className="text-neon-blue mb-6 lg:mb-8 group-hover:scale-125 transition-transform duration-500">
+            <div className="text-neon-blue mb-6 lg:mb-8 group-hover:scale-110 transition-transform duration-500">
               {group.icon}
             </div>
             <h3 className="text-xs lg:text-sm font-bold mb-6 lg:mb-8 uppercase tracking-[0.3em] font-mono group-hover:neon-text transition-colors">{group.title}</h3>

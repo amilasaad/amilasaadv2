@@ -2,9 +2,10 @@ import React from "react";
 import { motion } from "motion/react";
 import { ArrowRight, Github, Linkedin, Target } from "lucide-react";
 import { useInteractionSounds } from "../hooks/useInteractionSounds";
+import { SendEmail } from "../hooks/email-service";
 
 export default function Hero({
-  showChatButton = true,
+  showChatButton = true
 }: {
   showChatButton?: boolean;
 }) {
@@ -79,6 +80,16 @@ export default function Hero({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onMouseEnter={() => playHover()}
+                initial={{ scale: 0.85 }}
+                animate={{
+                  scale: 1.2,
+                  opacity: [0.9, 1, 0.9],
+                }}
+                transition={{
+                  duration: 2.9,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
                 onClick={() => {
                   playClick();
                   document
