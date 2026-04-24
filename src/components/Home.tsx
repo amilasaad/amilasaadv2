@@ -148,7 +148,7 @@ export default function Hero({
             className="relative z-10 w-full h-full rounded-[40px] lg:rounded-[60px] overflow-hidden glass-panel shadow-[0_0_50px_rgba(0,242,255,0.1)]"
           >
             <img
-              src="src/images/amil-1.jpg"
+              src="../images/amil-1.jpg"
               alt="Amil Asaad"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100"
