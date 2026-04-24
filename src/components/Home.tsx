@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "motion/react";
 import { ArrowRight, Github, Linkedin, Target } from "lucide-react";
 import { useInteractionSounds } from "../hooks/useInteractionSounds";
-import { SendEmail } from "../hooks/email-service";
 
 export default function Hero({
   showChatButton = true
