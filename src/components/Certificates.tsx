@@ -67,7 +67,7 @@ const CERTIFICATES = [
     image: "/images/spring-boot-cert.png",
   },
   {
-    title: "Faull Stack: Angular and Java Spring Boot",
+    title: "Full Stack: Angular and Java Spring Boot",
     subtitle: "Udemy",
     issuer: "MuleSoft",
     date: "2022",
