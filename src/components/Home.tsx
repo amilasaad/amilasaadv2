@@ -107,12 +107,12 @@ export default function Hero({
                 {
                   icon: <Github className="w-3.5 h-3.5 lg:w-4.5 h-4.5" />,
                   href: "https://github.com/amilasaad",
-                  Target: "_blank",
+                  target: "_blank",
                 },
                 {
                   icon: <Linkedin className="w-3.5 h-3.5 lg:w-4.5 h-4.5" />,
                   href: "https://www.linkedin.com/in/amilbangsaasaad8866",
-                  Target: "_blank",
+                  target: "_blank",
                 },
               ].map((social, i) => (
                 <motion.a
@@ -120,6 +120,7 @@ export default function Hero({
                   href={social.href}
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   whileTap={{ scale: 0.9 }}
+                  target={social.target}
                   onMouseEnter={() => playHover()}
                   onClick={() => playClick()}
                   className="p-2 lg:p-2.5 glass-panel rounded-full hover:border-neon-blue hover:neon-text transition-all"
