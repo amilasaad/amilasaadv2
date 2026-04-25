@@ -54,7 +54,7 @@ const HIGHLIGHTS = [
     description:
       "MuleSoft Certified Developer certification validating expertise in designing, building, and managing complex APIs and integrations.",
     icon: <Award className="w-6 h-6" />,
-    stats: "MCD - Level 1",
+    stats: "MCD - L1",
     image: "/images/mcd-lvl-1-cert.jpg",
   },
   {
