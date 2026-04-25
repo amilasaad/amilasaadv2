@@ -26,7 +26,7 @@ const CERTIFICATES = [
       "Recognition for innovative problem-solving and excellence in technical presentation within banking technology initiatives.",
     verifyUrl: "",
     icon: <Award className="w-8 h-8 text-neon-blue" />,
-    image: "/images/pitch-spot-award.jpg",
+    image: "/images/pitch-spot-award.png",
   },
   {
     title: "MuleSoft Mastery Certification",
@@ -51,7 +51,7 @@ const CERTIFICATES = [
       "Awarded for driving transformative digital solutions and fostering a culture of technical innovation within the organization.",
     verifyUrl: "",
     icon: <Award className="w-8 h-8 text-neon-blue" />,
-    image: "/images/innovation-champion-award.jpg",
+    image: "/images/innovation-champion-award.png",
   },
   {
     title: "Spring & Hibernate (includes Spring Boot)",
