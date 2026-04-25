@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import AIAssistant from "./components/AIAssistant";
 import { sendEmailLog } from "./hooks/email-service";
+import Certificates from "./components/Certificates";
 
 function ScrollReveal({ children }: { children: React.ReactNode }) {
   const containerRef = React.useRef(null);
@@ -43,7 +44,7 @@ const SHOW_CHAT_SECTION = true;
 
 export default function App() {
   useEffect(() => {
-  sendEmailLog('amilasaad@gmail.com', 'Someone visited your website!');
+  // sendEmailLog('amilasaad@gmail.com', 'Someone visited your website!');
 }, []);
   return (
     <main className="min-h-screen selection:bg-neon-blue selection:text-black relative">
@@ -53,6 +54,9 @@ export default function App() {
       <div className="space-y-16 lg:space-y-24 pb-32">
         <ScrollReveal>
           <Highlights />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Certificates/>
         </ScrollReveal>
         <ScrollReveal>
           <Skills />
