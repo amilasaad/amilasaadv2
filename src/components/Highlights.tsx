@@ -23,12 +23,12 @@ const HIGHLIGHTS = [
   },
   {
     id: "02",
-    title: "Metrobank ATM Connector",
+    title: "Banking Integration Connector",
     description:
-      'Awarded "Pitch Spot Award" for outstanding performance in developing a custom ISO-8583 MuleSoft connector that prevented potential project termination and enabled real-time Metrobank ATM transactions.',
+      'Awarded ‘Pitch Spot Award’ for engineering a custom ISO-8583 MuleSoft connector that mitigated critical integration risks, prevented potential project termination, and is now powering all ATM transactions in real time at scale.',
     icon: <Shield className="w-6 h-6" />,
     stats: "Pitch Spot Award",
-    image: "/images/pitch-spot-award.jpg",
+    image: "/images/pitch-spot-award.png",
   },
   {
     id: "03",
@@ -37,7 +37,7 @@ const HIGHLIGHTS = [
       "Recognized as an Innovation Champion for outstanding technical contributions that improved team productivity and accelerated project delivery.",
     icon: <Trophy className="w-6 h-6" />,
     stats: "Innovation Champion Award",
-    image: "/images/innovation-champion-award.jpg",
+    image: "/images/innovation-champion-award.png",
   },
   {
     id: "04",
