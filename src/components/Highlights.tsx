@@ -25,7 +25,7 @@ const HIGHLIGHTS = [
     id: "02",
     title: "Banking Integration Connector",
     description:
-      'Awarded ‘Pitch Spot Award’ for engineering a custom ISO-8583 MuleSoft connector that mitigated critical integration risks, prevented potential project termination, and is now powering all ATM transactions in real time at scale.',
+      'Outstanding recognition with the Pitch Spot Award for engineering a custom ISO-8583 MuleSoft connector that prevented potential project termination and is now powering all ATM transactions in real time at scale.',
     icon: <Shield className="w-6 h-6" />,
     stats: "Pitch Spot Award",
     image: "/images/pitch-spot-award.png",
