@@ -25,7 +25,7 @@ const HIGHLIGHTS = [
     id: "02",
     title: "Banking Integration Connector",
     description:
-      'Outstanding recognition with the Pitch Spot Award for engineering a custom ISO-based MuleSoft connector that improved the stability and reliability of transaction processing in a high-availability financial systems environment, enabling successful delivery under critical project conditions.',
+      'Outstanding recognition with the Pitch Spot Award for engineering a custom ISO-based MuleSoft connector that improved transaction reliability in a high-availability financial systems environment under critical project conditions.',
     icon: <Shield className="w-6 h-6" />,
     stats: "Pitch Spot Award",
     image: "/images/pitch-spot-award.png",
