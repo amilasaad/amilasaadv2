@@ -8,7 +8,7 @@ const EXPERIENCES = [
     company: 'Ascendion Inc.',
     role: 'Senior MuleSoft Developer',
     period: 'July 2022 - Present',
-    description: 'Technical contributor for a major Philippine bank’s integration projects. Guided junior developers through complex implementations and collaborated with cross-functional teams to align technical solutions with business requirements. Engineered ISO-8583 integration components and high-throughput messaging architectures.',
+    description: 'Technical contributor for a major Philippine bank’s integration projects. Guided junior developers through complex implementations and collaborated with cross-functional teams to align technical solutions with business requirements. Engineered ISO-based integration components and high-throughput messaging architectures.',
     skills: ['MuleSoft', 'Mentorship', 'Stakeholder Management', 'Integration Architecture', 'Java', 'ISO-8583', 'RAML', 'JWT', 'Kafka', 'Redis', 'NGINX', 'OAuth 2.0', 'Apache JMeter', 'MuleSoft Custom Connector'],
     logo: '/images/ascendion-work.jpg'
   },
