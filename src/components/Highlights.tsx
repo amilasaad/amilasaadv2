@@ -34,7 +34,7 @@ const HIGHLIGHTS = [
     id: "03",
     title: "Innovation Champion",
     description:
-      "Recognized as an Innovation Champion for outstanding technical contributions that improved team productivity and accelerated project delivery.",
+      "Recognized with a Pitch Spot Award for developing a custom ISO-based integration component using MuleSoft, improving the reliability and stability of transaction processing in a high-availability financial systems environment.",
     icon: <Trophy className="w-6 h-6" />,
     stats: "Innovation Champion Award",
     image: "/images/innovation-champion-award.png",
