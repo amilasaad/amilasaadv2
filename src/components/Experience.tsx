@@ -32,8 +32,8 @@ const EXPERIENCES = [
     company: 'Xurpas Inc.',
     role: 'Junior Java Developer',
     period: 'Nov 2021 - July 2022',
-    description: 'Developed scalable RESTful APIs using Spring Boot for Globe Telecom. Optimized database performance and collaborated with cross-functional teams to ensure seamless frontend integration.',
-    skills: ['Java', 'Spring Boot', 'MySQL', 'Angular', 'RESTful APIs', 'API Design'],
+    description: 'DDeveloped scalable RESTful APIs using Spring Boot for Globe Telecom while working as a Junior Java Developer, and also contributed as a Frontend Developer, optimizing database performance and collaborating with cross-functional teams to ensure seamless frontend integration and overall system functionality.',
+    skills: ['Java', 'Spring Boot', 'MySQL', 'Angular', 'RESTful APIs', 'API Design', 'RBAC'],
     logo: '/images/xurpas-work.jpg'
   },
   {

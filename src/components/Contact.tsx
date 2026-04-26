@@ -66,7 +66,7 @@ export default function Contact() {
           <div>
             <h3 className="text-2xl lg:text-3xl font-bold mb-4 lg:mb-6 tracking-tight">Let's build something <span className="neon-text">extraordinary</span> together.</h3>
             <p className="text-gray-400 font-mono text-[11px] lg:text-sm leading-relaxed mb-8 lg:mb-12 uppercase tracking-widest">
-              Open for collaborations, architectural consultations, and new opportunities in the API and AI space.
+              Open for collaborations, architectural consultations, and new opportunities in the API and AI realm.
             </p>
           </div>
           
@@ -121,7 +121,7 @@ export default function Contact() {
                 name="from_name"
                 required
                 className="w-full p-4 lg:p-6 glass-panel rounded-2xl lg:rounded-3xl bg-transparent border-white/5 focus:border-neon-blue focus:ring-0 transition-all font-mono text-xs lg:text-sm" 
-                placeholder="John Doe" 
+                placeholder="Your name" 
               />
             </div>
             <div className="space-y-2">

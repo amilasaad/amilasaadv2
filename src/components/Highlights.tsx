@@ -16,7 +16,7 @@ const HIGHLIGHTS = [
     id: "01",
     title: "Facial Recognition Attendance",
     description:
-      "Developed a biometric attendance tracking system using Angular, integrating a face recognition API for real-time identification and implementing SMS notifications to parents for attendance updates.",
+      "Developed an AI-based biometric attendance tracking system as my bachelor thesis using Angular, integrating a facial recognition API for real-time identity matching and SMS notifications to parents for attendance updates.",
     icon: <Zap className="w-6 h-6" />,
     stats: "99.2% Accuracy",
     image: "/images/thesis.png",
@@ -61,7 +61,7 @@ const HIGHLIGHTS = [
     id: "06",
     title: "Junior Java Developer",
     description:
-      "Started as a contractual Junior Java Developer at Globe Telecom Philippines under Xurpas Enterprise; earned regular employment in less than six months through strong performance.",
+      "Started as a contractual Junior Java Developer at Globe Telecom Philippines under Xurpas Enterprise, and earned regular employment in under six months through consistent high performance and strong contributions to project delivery.",
     icon: <CheckCircle className="w-6 h-6" />,
     stats: "Rated Superb",
     image: "/images/globe-logo.jpg",
