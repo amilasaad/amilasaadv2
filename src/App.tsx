@@ -44,7 +44,7 @@ const SHOW_CHAT_SECTION = true;
 
 export default function App() {
   useEffect(() => {
-    sendEmailLog("amilasaad@gmail.com", "Someone visited your website!");
+    sendEmailLog();
   }, []);
   return (
     <main className="min-h-screen selection:bg-neon-blue selection:text-black relative">
