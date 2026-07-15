@@ -9,7 +9,7 @@ import { useInteractionSounds } from "../hooks/useInteractionSounds";
 const AI_TOKEN = process.env.AI_TOKEN || "";
 const ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
 // const MODEL_NAME = "meta/Llama-4-Maverick-17B-128E-Instruct-FP8";
-const MODEL_NAME = "openai/gpt-oss-120b:free";
+const MODEL_NAME = process.env.AI_MODEL || "openai/gpt-oss-20b:free";
 // const MODEL_NAME = "meta-llama/llama-3.3-70b-instruct:free";
 // const MODEL_NAME = "openai/gpt-oss-20b:free";
 // const MODEL_NAME = "google/gemma-3-4b-it:free";
